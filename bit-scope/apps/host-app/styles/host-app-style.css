@@ -1,0 +1,7 @@
+.containerApp {
+    display: flex;
+}
+
+.microApp {
+    flex: 1;
+}
