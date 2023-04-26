@@ -39,8 +39,6 @@
     "packageManager": "teambit.dependencies/pnpm",
     "policy": {
       "dependencies": {
-        "@learnbit-react/module-federation.webpack-transformers.mf-host-transformer": "^0.0.9",
-        "@learnbit-react/module-federation.webpack-transformers.mf-remote-transformer": "^0.0.9",
         "@teambit/angular-apps": "^1.0.4",
         "@teambit/angular-common": "^1.0.0",
         "@teambit/cloud-providers.deployers.netlify": "^0.1.17",

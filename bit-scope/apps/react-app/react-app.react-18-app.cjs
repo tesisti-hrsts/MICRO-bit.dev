@@ -1,11 +1,4 @@
-/* @type {import("@teambit/react.apps.react-app-types").ReactAppOptions} */
-/*module.exports.default = {
-	name: "react-app",
-	entry: [require.resolve("./react-app.app-root")],
-};*/
-
-
-const { moduleFederationRemoteTransformer } = require('@learnbit-react/module-federation.webpack-transformers.mf-remote-transformer');
+const { moduleFederationReactAppTransformer } = require('./react-app-transformer.cjs');
 const { Netlify } = require('@teambit/cloud-providers.deployers.netlify');
 
 const netlifyOptions = {
@@ -21,7 +14,7 @@ const ReactApp = {
 	entry: [require.resolve('./react-app.app-root')],
 	webpackTransformers: [
 		(config) => {
-			return moduleFederationRemoteTransformer(
+			return moduleFederationReactAppTransformer(
 				config,
 				null,
 				require.resolve('./react-app')
