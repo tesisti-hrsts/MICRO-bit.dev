@@ -5,7 +5,6 @@ const webpack_1 = require("webpack");
 const { ModuleFederationPlugin } = webpack_1.container;
 
 const DEV_PUBLIC_PATH = 'http://localhost:60000/';
-const PROD_PUBLIC_PATH = 'https://react-app.netlify.app/';
 
 /* get a webpack config and return a mutated one */
 const moduleFederationReactAppTransformer = (configMutator, _context, appEntry) => {
@@ -43,9 +42,8 @@ const moduleFederationReactAppTransformer = (configMutator, _context, appEntry) 
             },
         },
     }));
-    const mode = configMutator.raw.mode || 'production';
     configMutator.raw.output = configMutator.raw.output || {};
-    configMutator.raw.output.publicPath = mode === 'development' ? DEV_PUBLIC_PATH : PROD_PUBLIC_PATH;
+    configMutator.raw.output.publicPath = DEV_PUBLIC_PATH;
     return configMutator;
 };
 

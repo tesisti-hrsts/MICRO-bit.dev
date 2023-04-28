@@ -1,7 +1,7 @@
-import { AngularAppOptions } from '@teambit/angular-apps';
-import { BrowserOptions, DevServerOptions } from '@teambit/angular-common';
+//import { AngularAppOptions } from '@teambit/angular-apps';
+//import { BrowserOptions, DevServerOptions } from '@teambit/angular-common';
 
-const angularOptions: BrowserOptions & DevServerOptions = {
+const angularOptions/*: BrowserOptions & DevServerOptions*/ = {
   main: './src/main.ts',
   polyfills: './src/polyfills.ts',
   index: './src/index.html',
@@ -10,7 +10,7 @@ const angularOptions: BrowserOptions & DevServerOptions = {
   styles: ['./src/styles.scss'],
 };
 
-export const AngularappOptions: AngularAppOptions = {
+export const AngularAppOptions/*: AngularAppOptions*/ = {
   /**
    * Name of the app in Bit CLI.
    */
@@ -32,4 +32,4 @@ export const AngularappOptions: AngularAppOptions = {
   sourceRoot: './src',
 };
 
-export default AngularappOptions;
+export default AngularAppOptions;

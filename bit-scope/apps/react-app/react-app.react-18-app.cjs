@@ -1,12 +1,4 @@
 const { moduleFederationReactAppTransformer } = require('./react-app-transformer.cjs');
-const { Netlify } = require('@teambit/cloud-providers.deployers.netlify');
-
-const netlifyOptions = {
-	team: 'HitachiGroup',
-	accessToken: process.env.NETLIFY_AUTH_TOKEN,
-	productionSiteName: 'react-app',
-	stagingSiteName: 'react-app-staging',
-};
 
 const ReactApp = {
 	name: 'react-app',
@@ -21,7 +13,6 @@ const ReactApp = {
 			);
 		},
 	],
-	deploy: Netlify.deploy(netlifyOptions),
 };
 
 module.exports.default = ReactApp;

@@ -38,12 +38,7 @@
      */
     "packageManager": "teambit.dependencies/pnpm",
     "policy": {
-      "dependencies": {
-        "@teambit/angular-apps": "^1.0.4",
-        "@teambit/angular-common": "^1.0.0",
-        "@teambit/cloud-providers.deployers.netlify": "^0.1.17",
-        "webpack": "5.75.0"
-      },
+      "dependencies": {},
       "peerDependencies": {}
     },
     "linkCoreAspects": true
@@ -69,7 +64,8 @@
   "teambit.generator/generator": {
     "envs": [
       "teambit.react/react-env",
-      "teambit.angular/angular"
+      "teambit.angular/angular",
+      "learnbit-react.module-federation/envs/mf-host-env"
     ]
   },
   "bit-scope/apps/react-app": {},
