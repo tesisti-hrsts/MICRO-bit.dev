@@ -38,7 +38,10 @@
      */
     "packageManager": "teambit.dependencies/pnpm",
     "policy": {
-      "dependencies": {},
+      "dependencies": {
+        "@teambit/angular-apps": "^1.0.5",
+        "@teambit/angular-common": "^1.0.1"
+      },
       "peerDependencies": {}
     },
     "linkCoreAspects": true
