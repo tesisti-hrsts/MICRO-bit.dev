@@ -9,29 +9,23 @@
  */
 
 {
-    "angular": {
-        "scope": "teambit.angular",
-        "version": "3.1.3",
-        "mainFile": "index.ts",
-        "rootDir": "bit-scope/envs/angular/angular"
-    },
-    "apps/angular-app": {
-        "scope": "",
-        "version": "0.0.1",
-        "mainFile": "index.ts",
-        "rootDir": "bit-scope/apps/angular-app"
-    },
     "apps/host-app": {
         "scope": "",
         "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "bit-scope/apps/host-app"
     },
-    "apps/react-app": {
+    "apps/react-app1": {
         "scope": "",
         "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "bit-scope/apps/react-app"
+        "rootDir": "bit-scope/apps/react-app1"
+    },
+    "apps/react-app2": {
+        "scope": "",
+        "version": "0.0.1",
+        "mainFile": "index.ts",
+        "rootDir": "bit-scope/apps/react-app2"
     },
     "envs/mf-host-env": {
         "scope": "learnbit-react.module-federation",
@@ -39,11 +33,11 @@
         "mainFile": "index.ts",
         "rootDir": "bit-scope/envs/host-env"
     },
-    "react": {
+    "react-env": {
         "scope": "teambit.react",
-        "version": "0.0.1043",
+        "version": "0.0.61",
         "mainFile": "index.ts",
-        "rootDir": "bit-scope/envs/react/react"
+        "rootDir": "bit-scope/envs/react/react-env"
     },
     "$schema-version": "15.0.0"
 }

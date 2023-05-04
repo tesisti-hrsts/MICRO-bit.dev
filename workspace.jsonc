@@ -38,10 +38,7 @@
      */
     "packageManager": "teambit.dependencies/pnpm",
     "policy": {
-      "dependencies": {
-        "@teambit/angular-apps": "^1.0.5",
-        "@teambit/angular-common": "^1.0.1"
-      },
+      "dependencies": {},
       "peerDependencies": {}
     },
     "linkCoreAspects": true
@@ -67,11 +64,10 @@
   "teambit.generator/generator": {
     "envs": [
       "teambit.react/react-env",
-      "teambit.angular/angular",
       "learnbit-react.module-federation/envs/mf-host-env"
     ]
   },
-  "bit-scope/apps/react-app": {},
-  "bit-scope/apps/angular-app": {},
+  "bit-scope/apps/react-app1": {},
+  "bit-scope/apps/react-app2": {},
   "bit-scope/apps/host-app": {}
 }

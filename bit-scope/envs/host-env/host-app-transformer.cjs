@@ -11,8 +11,8 @@ const moduleFederationHostAppTransformer = (config) => {
     new ModuleFederationPlugin({
         /* the remote apps to be loaded by this host app */
         remotes: {
-            react_app: 'react_app@http://localhost:60000/remoteEntry.js',
-            angular_app: 'angular_app@http://localhost:60001/remoteEntry2.js',
+            react_app1: 'react_app1@http://localhost:60000/remoteEntry.js',
+            react_app2: 'react_app2@http://localhost:60001/remoteEntry.js',
         },
         /**
          * a list of peer dependencies (to load by this host app, and not by any other remote app).

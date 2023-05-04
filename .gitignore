@@ -1,6 +1,6 @@
 .bit
 pnpm-lock.yaml
 node_modules
-./bit-scope/apps/angular-app/node_modules
-./bit-scope/apps/react-app/node_modules
+./bit-scope/apps/react-app1/node_modules
+./bit-scope/apps/react-app2/node_modules
 ./bit-scope/apps/host-app/node_modules
