@@ -11,21 +11,65 @@
 {
     "apps/host-app": {
         "scope": "",
-        "version": "0.0.1",
+        "version": "",
         "mainFile": "index.ts",
-        "rootDir": "bit-scope/apps/host-app"
+        "rootDir": "bit-scope/apps/host-app",
+        "config": {
+            "learnbit-react.module-federation/envs/mf-host-env@0.0.3": {},
+            "teambit.envs/envs": {
+                "env": "learnbit-react.module-federation/envs/mf-host-env"
+            },
+            "teambit.dependencies/dependency-resolver": {
+                "policy": {
+                    "dependencies": {
+                        "react": "18.0.0",
+                        "react-dom": "18.0.0"
+                    }
+                }
+            }
+        }
     },
     "apps/react-app1": {
         "scope": "",
-        "version": "0.0.1",
+        "version": "",
         "mainFile": "index.ts",
-        "rootDir": "bit-scope/apps/react-app1"
+        "rootDir": "bit-scope/apps/react-app1",
+        "config": {
+            "teambit.react/react-env@0.0.62": {},
+            "teambit.envs/envs": {
+                "env": "teambit.react/react-env"
+            },
+            "teambit.dependencies/dependency-resolver": {
+                "policy": {
+                    "dependencies": {
+                        "react": "18.2.0",
+                        "react-dom": "18.2.0",
+                        "windowed-observable": "1.0.0"
+                    }
+                }
+            }
+        }
     },
     "apps/react-app2": {
         "scope": "",
-        "version": "0.0.1",
+        "version": "",
         "mainFile": "index.ts",
-        "rootDir": "bit-scope/apps/react-app2"
+        "rootDir": "bit-scope/apps/react-app2",
+        "config": {
+            "teambit.react/react-env@0.0.62": {},
+            "teambit.envs/envs": {
+                "env": "teambit.react/react-env"
+            },
+            "teambit.dependencies/dependency-resolver": {
+                "policy": {
+                    "dependencies": {
+                        "react": "18.2.0",
+                        "react-dom": "18.2.0",
+                        "windowed-observable": "1.0.0"
+                    }
+                }
+            }
+        }
     },
     "envs/mf-host-env": {
         "scope": "learnbit-react.module-federation",
@@ -35,7 +79,7 @@
     },
     "react-env": {
         "scope": "teambit.react",
-        "version": "0.0.61",
+        "version": "0.0.62",
         "mainFile": "index.ts",
         "rootDir": "bit-scope/envs/react/react-env"
     },
