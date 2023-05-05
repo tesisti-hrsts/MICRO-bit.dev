@@ -8,3 +8,4 @@ Bit Framework tests
 3. [https://blog.bitsrc.io/leveraging-microfrontend-architecture-using-bit-components-3cd4d0b1d34e](https://blog.bitsrc.io/leveraging-microfrontend-architecture-using-bit-components-3cd4d0b1d34e) - To create React Apps in Bit Framework
 4. [https://bit.dev/docs/react-runtime-integration/module-federation/](https://bit.dev/docs/react-runtime-integration/module-federation/) - For Module Federation between React Apps and Host App
 5. [https://webpack.js.org/concepts/module-federation/#uncaught-error-shared-module-is-not-available-for-eager-consumption](https://webpack.js.org/concepts/module-federation/#uncaught-error-shared-module-is-not-available-for-eager-consumption) - For Module Federation between React Apps and Host App
+6. [https://dev.to/luistak/cross-micro-frontends-communication-30m3#windowed-observable](https://dev.to/luistak/cross-micro-frontends-communication-30m3#windowed-observable) - For communication between apps
