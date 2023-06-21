@@ -9,10 +9,10 @@ const ReactApp1 = React.lazy(() => import('react_app1/reactApp1'));
 const ReactApp2 = React.lazy(() => import('react_app2/reactApp2'));
 
 export function HostApp() {
-	return (
-		<div className='containerApp'>
-			<div className='microApp'> <ReactApp1 /> </div>
-			<div className='microApp'> <ReactApp2 /> </div>
-		</div>
-	);
+  return (
+    <div className='containerApp'>
+      <div className='microApp'> <ReactApp1 /> </div>
+      <div className='microApp'> <ReactApp2 /> </div>
+    </div>
+  );
 }
