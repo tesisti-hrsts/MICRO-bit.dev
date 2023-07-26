@@ -1,2 +1,2 @@
 # bit.dev
-Bit Framework tests
+Bit Framework demo
